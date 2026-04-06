@@ -1,199 +1,160 @@
-%% Vishnu Nair — Professional CV
-%% Compile with: pdflatex vishnu_cv.tex
+VN
+	•	Why Me
+	•	Skills
+	•	Experience
+	•	Project
+	•	Contact
+Hire Me
+AVAILABLE FOR NEW OPPORTUNITIES
+Vishnu Nair
+Mainframe Modernization Lead  ·  ASM→C Specialist  ·  Technical Lead
+I convert legacy Assembler to modern C — live, in production, on systems that cannot afford downtime. 9+ years turning IBM mainframe complexity into maintainable, future-ready codebases.
+Get In Touch
+View Experience
+VN
+Vishnu Nair
+Assistant Consultant @ TCS · Bracknell, UK
+9+
+YEARS
+21
+TEAM SIZE
+0
+INCIDENTS
+Open to Technical Lead & Modernization roles
+WHAT SETS ME APART
+Why hire me over 1,000 other mainframe engineers?
+Most maintain. I transform. Here's what makes my profile rare in the market.
+⚙️
+ASM → C Conversion Specialist
+I don't just understand Assembler — I convert it to C on live enterprise systems. This specific skill is rare globally and is exactly what Kyndryl, AWS ProServe, and NTT DATA are paying premium salaries for.
+🏢
+Enterprise Car Rental Domain Depth
+9+ years on a single complex client means I understand reservation systems, billing engines, pricing logic, and fleet management at architecture level — not just code level.
+🌐
+Onsite–Offshore Bridge
+I've sat at both sides of the delivery model — as an offshore developer, a technical lead, and an onsite coordinator managing 21-person distributed teams across UK and India.
+🤖
+AI-Ready Modernization
+Oracle OCI Generative AI Professional certified (2025). I understand how AI tools accelerate legacy code comprehension and conversion — the future of mainframe modernization programs.
+✅
+Zero Production Incidents
+Converting mission-critical Assembler modules to C, live in production, with no downtime or production incidents. That track record speaks louder than any certification.
+📍
+UK-Based, Global-Ready
+Currently in Bracknell, UK with 9+ years at TCS. Open to UK roles, India (Pune / Bangalore / Chennai), or remote/hybrid globally with sponsorship where needed.
+TECHNICAL PROFILE
+Skills & Technologies
+Every skill below is production-proven — not course-learned.
+🖥 MAINFRAME PLATFORM
+IBM z/OS
+IMS DB/DC
+DB2
+CICS
+JES2
+💻 LANGUAGES
+Assembler (ASM)
+C Programming
+COBOL
+JCL
+REXX
+🔄 MODERNIZATION
+ASM→C Conversion
+Legacy Migration
+Code Refactoring
+Regression Testing
+🤖 AI & CLOUD
+Oracle OCI GenAI
+Generative AI
+AI Code Analysis
+🏭 DOMAIN
+Car Rental Operations
+Reservation Systems
+Fleet Management
+Billing & Pricing Logic
+👥 DELIVERY & LEADERSHIP
+Technical Leadership
+Agile / Scrum
+Onsite–Offshore
+Stakeholder Mgmt
+Requirement Analysis
+CAREER HISTORY
+10 Years at TCS — Four Roles, One Trajectory
+From developer to modernization lead — every role built toward the same outcome: transforming legacy systems that cannot afford to fail.
 
-\documentclass[10pt, a4paper]{article}
+FEB 2024 – PRESENT
+Assistant Consultant — Mainframe Modernization Lead
+Tata Consultancy Services · Bracknell, UK
+	•	Leading ASM-to-C modernization program for a global car rental enterprise
+	•	Zero production incidents across all legacy module conversions
+	•	Technical advisor to client SMEs and senior stakeholders
+	•	Driving Agile delivery cadences across UK–India distributed teams
+	•	Evaluating AI-assisted tools to accelerate code comprehension and conversion
 
-% ── Packages ────────────────────────────────────────────────────────────────
-\usepackage[a4paper, top=1.8cm, bottom=1.8cm, left=1.8cm, right=1.8cm]{geometry}
-\usepackage[T1]{fontenc}
-\usepackage{xcolor}
-\usepackage{titlesec}
-\usepackage{enumitem}
-\usepackage{tabularx}
-\usepackage{array}
-\usepackage{booktabs}
-\usepackage{hyperref}
-\usepackage{multicol}
-\usepackage{parskip}
+OCT 2022 – JAN 2024
+Onsite Coordinator
+Tata Consultancy Services · Bracknell, UK
+	•	Primary bridge between client and a 21-member offshore development unit
+	•	Zero missed SLA targets across entire tenure
+	•	Resolved escalations and requirement gaps, measurably improving client NPS
 
-% ── Colours ─────────────────────────────────────────────────────────────────
-\definecolor{teal}{HTML}{0F6E56}
-\definecolor{teallight}{HTML}{E1F5EE}
-\definecolor{darkgray}{HTML}{2C2C2A}
-\definecolor{midgray}{HTML}{5F5E5A}
-\definecolor{lightgray}{HTML}{D3D1C7}
-\definecolor{accent}{HTML}{1D9E75}
+MAR 2017 – OCT 2022
+Offshore Lead / Technical Lead
+Tata Consultancy Services · Mumbai, India
+	•	Led team of 21 engineers through full development and testing cycles
+	•	Designed scalable solutions on IBM z/OS, IMS, and DB2 platforms
+	•	Delivered defect-free code consistently within agreed timelines across 5 years
 
-% ── Hyperlinks ───────────────────────────────────────────────────────────────
-\hypersetup{
-  colorlinks=true,
-  urlcolor=teal,
-  linkcolor=teal,
-  pdfauthor={Vishnu Nair},
-  pdftitle={Vishnu Nair — CV}
-}
-
-% ── Section formatting ───────────────────────────────────────────────────────
-\titleformat{\section}
-  {\large\bfseries\color{teal}}
-  {}{0em}{}
-  [\vspace{-6pt}\textcolor{lightgray}{\rule{\linewidth}{0.5pt}}\vspace{2pt}]
-
-\titlespacing*{\section}{0pt}{14pt}{6pt}
-
-% ── List style ───────────────────────────────────────────────────────────────
-\setlist[itemize]{
-  leftmargin=1.2em,
-  itemsep=1pt,
-  parsep=0pt,
-  topsep=3pt,
-  label={\textcolor{teal}{\small$\bullet$}}
-}
-
-% ── Custom commands ──────────────────────────────────────────────────────────
-\newcommand{\jobtitle}[4]{%
-  \noindent
-  \begin{tabularx}{\linewidth}{@{}X r@{}}
-    \textbf{\color{darkgray}#1} & \textcolor{midgray}{\small #2}\\
-    \textcolor{teal}{\small\textbf{#3}} \textcolor{midgray}{\small | #4} & \\
-  \end{tabularx}%
-  \vspace{2pt}%
-}
-
-\newcommand{\cvtag}[1]{%
-  \colorbox{teallight}{\textcolor{teal}{\footnotesize\textbf{#1}}}%
-}
-
-\newcommand{\skilllabel}[1]{\textcolor{teal}{\small\textbf{#1}}}
-
-% ── No page numbers ──────────────────────────────────────────────────────────
-\pagestyle{empty}
-\setlength{\parindent}{0pt}
-
-% ════════════════════════════════════════════════════════════════════════════
-\begin{document}
-% ════════════════════════════════════════════════════════════════════════════
-
-%% ── HEADER ─────────────────────────────────────────────────────────────────
-\begin{center}
-  {\Huge\bfseries\color{teal} VISHNU NAIR}\\[4pt]
-  {\large\color{midgray} Mainframe Modernization Lead \textbf{|} ASM{\,\textrightarrow\,}C Specialist \textbf{|} Technical Lead}\\[6pt]
-  \textcolor{lightgray}{\rule{0.6\linewidth}{0.4pt}}\\[6pt]
-  \small
-  \textbf{Location:}~Bracknell, UK\quad\textbf{|}\quad
-  \textbf{Phone:}~\href{tel:+447768099376}{+44 7768099376}\quad\textbf{|}\quad
-  \textbf{Email:}~\href{mailto:vishnunair.nair6@gmail.com}{vishnunair.nair6@gmail.com}\quad\textbf{|}\quad
-  \textbf{LinkedIn:}~\href{https://linkedin.com/in/vishnu-nair-0802}{vishnu-nair-0802}
-\end{center}
-
-\vspace{6pt}
-
-%% ── PROFESSIONAL SUMMARY ────────────────────────────────────────────────────
-\section{Professional Summary}
-
-Associate Consultant with \textbf{9+ years} of hands-on Mainframe Modernization experience, specialising in the conversion of legacy \textbf{Assembler (ASM) modules to C} and optimising mission-critical workflows for a global car rental enterprise. Proven track record leading onsite--offshore delivery teams of up to 21 members, engaging client SMEs and stakeholders, and driving \textbf{defect-free Agile delivery programs}. Oracle OCI GenAI Professional certified (2025), bringing AI-augmented modernization capabilities to legacy transformation programs.
-
-I do something most mainframe engineers haven't done: convert legacy Assembler directly to C --- live, in production, on systems that cannot afford downtime.
-
-%% ── CORE COMPETENCIES ───────────────────────────────────────────────────────
-\section{Core Competencies}
-
-\begin{multicols}{3}
-\begin{itemize}
-  \item Mainframe Modernization
-  \item ASM $\rightarrow$ C Conversion
-  \item IBM z/OS Systems
-  \item IMS DB/DC
-  \item DB2 \& CICS
-  \item COBOL \& JCL
-  \item Legacy System Migration
-  \item C Programming (CLA Certified)
-  \item Agile / Scrum Delivery
-  \item Onsite--Offshore Leadership
-  \item Client Stakeholder Management
-  \item AI-Augmented Modernization
-\end{itemize}
-\end{multicols}
-
-%% ── PROFESSIONAL EXPERIENCE ─────────────────────────────────────────────────
-\section{Professional Experience}
-
-\jobtitle{Assistant Consultant --- Mainframe Modernization Lead}{Feb 2024 -- Present}{Tata Consultancy Services (TCS)}{Bracknell, UK}
-\begin{itemize}
-  \item Spearheading \textbf{ASM-to-C modernization program} for a global car rental enterprise, converting legacy Assembler modules to modern C codebases to improve maintainability and performance.
-  \item Migrated rental pricing engines, reservation logic, and fleet update modules --- high-risk components requiring deep z/OS internals knowledge --- with \textbf{zero production incidents}.
-  \item Driving Agile delivery cadences across distributed UK--India teams, improving on-time delivery and client satisfaction scores.
-  \item Acting as primary technical advisor to client SMEs and senior stakeholders, translating legacy complexity into modernization business cases.
-  \item Evaluating AI-assisted code analysis tools to accelerate legacy code comprehension and conversion throughput.
-\end{itemize}
-
-\vspace{6pt}
-\jobtitle{Onsite Coordinator}{Oct 2022 -- Jan 2024}{Tata Consultancy Services (TCS)}{Bracknell, UK}
-\begin{itemize}
-  \item Served as the \textbf{primary bridge} between client teams and a 21-member offshore development unit across UK--India time zones.
-  \item Resolved escalations, clarified requirements, and unblocked delivery --- achieving measurable improvement in client NPS and satisfaction metrics.
-  \item Coordinated sprint planning, release management, and defect triage with \textbf{zero missed SLA targets}.
-\end{itemize}
-
-\vspace{6pt}
-\jobtitle{Offshore Lead / Technical Lead}{Mar 2017 -- Oct 2022}{Tata Consultancy Services (TCS)}{Mumbai, India}
-\begin{itemize}
-  \item Led a team of \textbf{21 engineers} through full development and testing cycles for mainframe-based rental reservation, billing, and fleet management systems.
-  \item Designed scalable solutions on \textbf{IBM z/OS, IMS, and DB2} platforms, collaborating with business analysts to define new module architectures.
-  \item Delivered defect-free code and documentation consistently within agreed timelines across a 5-year tenure.
-  \item Oversaw feature enhancements supporting new client business functionalities and compliance requirements.
-\end{itemize}
-
-\vspace{6pt}
-\jobtitle{Junior Software Developer}{Oct 2015 -- Mar 2017}{Tata Consultancy Services (TCS)}{Mumbai, India}
-\begin{itemize}
-  \item Developed, debugged, and documented mainframe application components in \textbf{COBOL, ASM, and JCL} for rental processing workflows.
-  \item Built and improved testing and validation frameworks for mainframe batch and online applications.
-  \item Onboarded and mentored new team members, establishing development standards and code review practices.
-\end{itemize}
-
-%% ── KEY PROJECT ─────────────────────────────────────────────────────────────
-\section{Key Modernization Project}
-
-\textbf{\color{darkgray}Mainframe Modernization --- ASM to C Conversion} \hfill \textcolor{midgray}{\small Ongoing | Global Car Rental Enterprise}
-
-\begin{itemize}
-  \item Converted legacy Assembler modules to modern C, reducing operational risk and improving long-term maintainability across mission-critical systems.
-  \item Migrated rental pricing logic, reservation processing, and fleet update components --- establishing conversion standards, regression test protocols, and rollback procedures.
-  \item Quantified modernization outcomes with performance benchmarks presented to client leadership to secure continued program investment.
-\end{itemize}
-
-%% ── CERTIFICATIONS ──────────────────────────────────────────────────────────
-\section{Certifications}
-
-\begin{tabularx}{\linewidth}{@{} l X r @{}}
-  \textcolor{teal}{$\star$} & \textbf{Oracle OCI Generative AI Professional} & \textcolor{midgray}{2025 | Oracle}\\[3pt]
-  \textcolor{teal}{$\star$} & \textbf{C Programming Language Certified Associate (CLA-11-02)} & \textcolor{midgray}{C++ Institute}\\
-\end{tabularx}
-
-%% ── EDUCATION ───────────────────────────────────────────────────────────────
-\section{Education}
-
-\jobtitle{Bachelor of Engineering --- Computer Science}{2011 -- 2015}{Pillai Institute of Information Technology, Mumbai University}{Mumbai, India}
-
-%% ── SKILLS MATRIX ───────────────────────────────────────────────────────────
-\section{Technical Skills}
-
-\begin{tabularx}{\linewidth}{@{} >{\skilllabel}p{3.2cm} X @{}}
-  Mainframe        & IBM z/OS, IMS DB/DC, DB2, CICS, JES2 \\[2pt]
-  Languages        & C, Assembler (ASM), COBOL, JCL, REXX \\[2pt]
-  Modernization    & ASM-to-C Conversion, Legacy Migration, Code Refactoring, Regression Testing \\[2pt]
-  AI \& Cloud      & Oracle OCI, Generative AI, AI-Augmented Code Analysis \\[2pt]
-  Domain           & Car Rental Operations, Reservation Systems, Fleet Management, Billing \& Pricing Logic \\[2pt]
-  Delivery         & Agile / Scrum, Onsite--Offshore Coordination, Stakeholder Management, Requirement Analysis \\
-\end{tabularx}
-
-%% ── ADDITIONAL ──────────────────────────────────────────────────────────────
-\section{Additional}
-
-\textbf{Right to Work:} Currently based in Bracknell, UK. Open to roles in UK, India (Pune, Bangalore, Chennai), and remote/hybrid globally.\\[3pt]
-\textbf{Languages:} English (Professional) | Malayalam (Native) | Hindi (Fluent)\\[3pt]
-\textbf{Interests:} Budding writer; avid reader of fiction and technical literature.
-
-% ════════════════════════════════════════════════════════════════════════════
-\end{document}
+OCT 2015 – MAR 2017
+Junior Software Developer
+Tata Consultancy Services · Mumbai, India
+	•	Developed mainframe application components in COBOL, ASM, and JCL
+	•	Built testing and validation frameworks for mainframe batch and online applications
+FLAGSHIP WORK
+Mainframe Modernization: ASM → C Conversion
+ONGOING · GLOBAL CAR RENTAL ENTERPRISE
+Converting legacy Assembler to modern C — live, in production
+A multi-year modernization program converting mission-critical Assembler modules — rental pricing engines, reservation logic, fleet update systems — to maintainable C codebases, while the systems continue processing millions of transactions.
+Established conversion standards, regression test protocols, and rollback procedures that have maintained a zero-incident production record throughout the migration lifecycle.
+0
+Production Incidents
+3+
+Core Modules Migrated
+9+
+Years Domain Knowledge
+21
+Team Members Led
+CREDENTIALS
+Certifications & Education
+Formal credentials that validate the technical depth behind the experience.
+🤖
+Oracle OCI Generative AI Professional
+Oracle Cloud Infrastructure
+2025 · Active
+💻
+C Programming Language Certified Associate
+C++ Institute · CLA-11-02
+Active
+🎓
+Bachelor of Engineering — Computer Science
+Pillai Institute of Information Technology, Mumbai University
+2011 – 2015
+LET'S CONNECT
+Open to the Right Opportunity
+If you're hiring for Technical Lead, Modernization Consultant, or Mainframe Expert roles — let's talk.
+📧
+EMAIL
+vishnunair.nair6@gmail.com
+📱
+PHONE (UK)
++44 7768099376
+🔗
+LINKEDIN
+linkedin.com/in/vishnu-nair-0802
+📍
+LOCATION
+Bracknell, United Kingdom
+Open to opportunities in
+Technical Lead Modernization Consultant Mainframe Expert Offshore Lead UK India — Pune India — Bangalore India — Chennai Remote / Hybrid Visa Sponsorship
+Target companies: Kyndryl · AWS ProServe · NTT DATA · Thoughtworks · Barclays · IBM
+Send me a message
+Built for job hunting · Vishnu Nair · Mainframe Modernization Lead · Bracknell, UK · 2026
